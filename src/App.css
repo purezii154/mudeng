@@ -1,0 +1,79 @@
+#root {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+
+}
+
+.header {
+  background-color: #ff7474; 
+  padding: 20px; 
+  text-align: center; 
+  border-bottom: 2px solid #ff0000; 
+  margin-bottom: 20px; 
+}
+
+.header h1 {
+  margin: 0; /* ลบระยะห่างบนและล่าง */
+  color: #000000; /* สีข้อความ */
+  font-size: 2em; /* ขนาดฟอนต์ */
+}
+
+.logo {
+  height: 6em;
+  padding: 0.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  border: 3px solid #ef09ff; /* ขอบสีดำ, ขนาด 3px */
+  border-radius: 8px; /* มุมโค้งมน */
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 5em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.food img {
+  width: 50px; /* ปรับขนาดภาพอาหาร */
+  height: 50px;
+  border: 3px solid #ef09ff; /* ขอบสีดำ*/
+  border-radius: 8px; /* มุมโค้งมน */
+}
+
+.pig img {
+  width: 900px;
+  height: 900px;
+  border: 3px solid #ef09ff; /* ขอบสีดำ*/
+  border-radius: 8px; 
+}
+
+.but button {
+  font-size: 20px; /* ปรับขนาดฟอนต์ปุ่มรีเซ็ต */
+}
